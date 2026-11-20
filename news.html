@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { width: 1024px; height: 1024px; margin: 0; font-family: 'Times New Roman', serif; background: #fff; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; }
+        .masthead { text-align: center; border-bottom: 4px solid #000; padding-bottom: 10px; margin-bottom: 20px; }
+        .masthead h1 { font-size: 40px; margin: 0; letter-spacing: 2px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; flex: 1; }
+        .lead { grid-column: span 3; border-bottom: 2px solid #ccc; padding-bottom: 20px; }
+        .story { margin-bottom: 15px; }
+        h2 { font-size: 20px; margin-top: 0; margin-bottom: 5px; }
+        .flag-container { display: flex; justify-content: space-around; margin-bottom: 10px; }
+        .flag-box { text-align: center; }
+        .svg-flag { width: 150px; height: 100px; }
+        .market-strip { display: flex; justify-content: space-between; font-weight: bold; color: #d00; margin: 10px 0; border: 1px solid #d00; padding: 5px; }
+        .footer { grid-column: span 3; border-top: 4px solid #000; padding-top: 10px; text-align: center; font-size: 24px; font-weight: bold; background: #000; color: #fff; }
+        .map-icon { width: 100px; height: 100px; fill: #ccc; margin: 0 auto; display: block; }
+    </style>
+</head>
+<body>
+    <div class="masthead">
+        <h1>THE DAILY WIRE — FRIDAY, NOVEMBER 20, 2026</h1>
+    </div>
+    <div class="grid">
+        <div class="lead">
+            <h2>TRILATERAL SUMMIT: CHINA, US, RUSSIA SIGN PEACE DECLARATION</h2>
+            <div class="flag-container">
+                <div class="flag-box">
+                    <svg class="svg-flag" viewBox="0 0 30 20"><rect width="30" height="20" fill="red"/><circle cx="5" cy="5" r="1" fill="yellow"/><circle cx="8" cy="3" r="0.5" fill="yellow"/><circle cx="10" cy="3" r="0.5" fill="yellow"/><circle cx="10" cy="5" r="0.5" fill="yellow"/><circle cx="8" cy="7" r="0.5" fill="yellow"/></svg>
+                    <p>Xi Jinping</p>
+                </div>
+                <div class="flag-box">
+                    <svg class="svg-flag" viewBox="0 0 30 20"><rect width="30" height="20" fill="white"/><rect width="30" height="2" fill="red"/><rect width="30" height="2" y="4" fill="red"/><rect width="30" height="2" y="8" fill="red"/><rect width="30" height="2" y="12" fill="red"/><rect width="30" height="2" y="16" fill="red"/><rect width="12" height="10" fill="blue"/></svg>
+                    <p>Donald Trump</p>
+                </div>
+                <div class="flag-box">
+                    <svg class="svg-flag" viewBox="0 0 30 20"><rect width="30" height="6.6" fill="white"/><rect width="30" height="6.6" y="6.6" fill="blue"/><rect width="30" height="6.6" y="13.2" fill="red"/></svg>
+                    <p>Vladimir Putin</p>
+                </div>
+            </div>
+            <p>Xi Jinping, Donald Trump, and Vladimir Putin met in Shenzhen, committing to nuclear risk reduction, UN reform, and increased petroleum supply. They declared that a nuclear war "cannot be won and must never be fought."</p>
+        </div>
+        <div class="column">
+            <div class="story">
+                <h2>Anthropic IPO & Markets</h2>
+                <p>Anthropic's IPO debut at $81.3 billion was the largest market debut ever, but investors sold the news immediately. Wall Street ended sharply lower, and global markets followed suit due to doubts about the AI-trade.</p>
+                <div class="market-strip">
+                    <span>Dow -2.19% ↓</span>
+                    <span>S&P -2.02% ↓</span>
+                    <span>Nasdaq -2.25% ↓</span>
+                    <span>Nikkei -4.5% ↓</span>
+                    <span>Kospi -4.7% ↓</span>
+                </div>
+            </div>
+            <div class="story">
+                <h2>Oil Crisis</h2>
+                <p>Houthi missiles fired at Riyadh, and two oil tankers were hit by naval mines and burned in the Strait of Hormuz. Consequently, Brent crude oil prices are hovering around $92-93 per barrel.</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="story">
+                <h2>Ukraine</h2>
+                <svg class="map-icon" viewBox="0 0 100 100"><path d="M10 10 L90 10 L90 90 L10 90 Z" stroke="black" fill="none"/><circle cx="50" cy="50" r="10" fill="red"/></svg>
+                <p>US envoy Jared Kushner indicated that Trump is "open" to giving Ukraine a NATO-like Article 5 mutual-defence guarantee. A coalition-of-the-willing summit was held in Berlin with Zelenskyy, where Macron urged "reopening the question" of Ukraine's NATO accession.</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="story">
+                <h2>Cyclone Akvan</h2>
+                <p>Cyclone Akvan is approaching India's east coast with landfall forecast between Narsapur and Puri. Authorities have evacuated 50,000 people in Odisha, and 10 train services have been cancelled.</p>
+            </div>
+        </div>
+        <div class="footer">
+            GTA VI LAUNCHES WORLDWIDE AFTER 13 YEARS — GLOBAL FRENZY
+        </div>
+    </div>
+</body>
+</html>
