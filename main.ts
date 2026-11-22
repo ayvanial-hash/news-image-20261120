@@ -2,7 +2,8 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { join } from 'node:path';
 
 async function validateAndCopy() {
-    const inputPath = 'entry.png';
+    const botDir = process.env.MAKEFUN_BOT_DIR || '/bot';
+    const inputPath = join(botDir, 'entry.png');
     const outputDir = process.env.MAKEFUN_OUTPUT_DIR || '/output';
     const outputPath = join(outputDir, 'entry.png');
 
